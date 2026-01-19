@@ -24,7 +24,7 @@ public class Cart {
             }
         }
 
-        if(found) {
+        if(!found) {
             product.setQuantity(quantity);
             products.add(product);
             System.out.println(quantity + " " + product.getName() + "(s) added to your cart.");
